@@ -23,6 +23,7 @@ Or install it yourself as:
 
 == Synopsis
 
+```ruby
   require 'debugfile'
 
   file = Debugfile.new('for_debug', 'foo.txt')
@@ -35,6 +36,7 @@ Or install it yourself as:
   file = Debugfile.open('for_debug', 'foo.txt') {|f| f.write "Ruby!" }
   file.open
   file.read #=> "Ruby!"
+```
 
 ## Contributing
 
