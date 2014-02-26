@@ -1,6 +1,6 @@
 # Debugfile
 
-debugfile stores temporary file for debugging, based on ruby/mri/lib/tempfile.rb
+Debugfile stores temporary file for debugging, based on ruby/mri/lib/tempfile.rb
 
 You can store files in your tmporary directory orderd by date. For example, when you file uploader fails to complete uploading process, you can get the file for debug.
 
