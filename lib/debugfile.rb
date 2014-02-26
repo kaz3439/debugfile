@@ -12,14 +12,14 @@ require 'securerandom'
 #
 #  require 'debugfile'
 #
-#  file = Debugfile.new('for_debug', 'foo.zip')
-#  file.path #=> e.g.: "/tmp/for_debug/20140226/e34d7899-09cf-4b46-8ef4-4f751f9ae649-foo.zip"
+#  file = Debugfile.new('for_debug', 'foo.txt')
+#  file.path #=> e.g.: "/tmp/for_debug/20140226/e34d7899-09cf-4b46-8ef4-4f751f9ae649-foo.txt"
 #  file.write "hello!"
 #  file.rewind
 #  file.read  #=> "hello!"
 #  file.close
 #
-#  file = Debugfile.open('for_debug', 'foo.zip') {|f| f.write "Ruby!" }
+#  file = Debugfile.open('for_debug', 'foo.txt') {|f| f.write "Ruby!" }
 #  file.open
 #  file.read #=> "Ruby!"
 class Debugfile < DelegateClass(File)
