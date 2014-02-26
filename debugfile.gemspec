@@ -4,8 +4,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "debugfile"
-  spec.version       = "0.0.1"
-  spec.authors       = ["kaz3439"]
+  spec.version       = "0.0.2"
+  spec.authors       = ["Kaz"]
   spec.email         = ["k.hayashi.info@gmail.com"]
   spec.description   = %q{You can store files in your tmporary directory orderd by date}
   spec.summary       = %q{You can store files in your tmporary directory orderd by date. For example, when you file uploader fails to complete uploading process, you can get the file for debug.}
