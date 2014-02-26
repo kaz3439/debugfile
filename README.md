@@ -21,8 +21,6 @@ Or install it yourself as:
 ## Usage
 
 
-== Synopsis
-
 ```ruby
   require 'debugfile'
 
